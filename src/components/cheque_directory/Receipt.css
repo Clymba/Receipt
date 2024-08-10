@@ -1,0 +1,73 @@
+.receipt {
+    width: 58mm;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    color: #000;
+    line-height: 0.8; /* Уменьшает расстояние между строками */
+}
+
+.header p{
+    text-align: center;
+    font-weight: bold;
+    margin: 4px; /* Убирает внешние отступы между абзацами */
+    padding: 0; /* Убирает внутренние отступы, если нужно */ /* Уменьшает расстояние между строками */
+}
+
+.wrapper p {
+    margin: 4px; /* Убирает внешние отступы между абзацами */
+    padding: 0; /* Убирает внутренние отступы, если нужно */ /* Уменьшает расстояние между строками */
+}
+
+
+.sum {
+    text-align: right;
+}
+
+.total {
+    display: flex;
+    align-items: center; /* Выравнивает элементы по вертикали */
+    justify-content: space-between;
+    font-size: 20px; /* Уменьшенный размер шрифта для всего блока */
+    height: 25px; /* Устанавливает высоту блока, измените по необходимости */
+    font-weight: bold;
+}
+
+.total-amount-wrapper {
+    display: flex;
+    font-size: 25px;
+}
+
+.sum-item {
+    display: flex;
+    justify-content: space-between; /* Располагает элементы по бокам */
+}
+
+.sum-amount-wrapper {
+    display: flex;
+}
+
+.sum-wrapper {
+    border-bottom: 1px dashed black;
+}
+
+.inf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper_qr-code_other_inf {
+    display: flex;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.qr {
+    width: 100px;
+    height: 100px;
+}
